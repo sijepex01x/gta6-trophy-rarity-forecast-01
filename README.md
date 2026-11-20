@@ -1,8 +1,12 @@
-# GTA VI trophy rarity forecast
+# gta6-trophy-rarity-forecast-01
+
+[![make.fun · gta6-trophy-rarity-forecast-01](https://make.fun/badge/gta6-trophy-rarity-forecast-01.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![rank](https://make.fun/badge/gta6-trophy-rarity-forecast-01/sijepex01x/gta6-trophy-rarity-forecast-01/rank.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![reward](https://make.fun/badge/gta6-trophy-rarity-forecast-01/sijepex01x/gta6-trophy-rarity-forecast-01/reward.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
 
 Forecast, for every trophy of Grand Theft Auto VI on PlayStation 5, its earn
 rate on Exophase at 2026-11-26T00:00:00Z, as five quantiles per trophy.
-Entry for Make.fun bounty `gta6-trophy-rarity-forecast-01`.
+Entry for the [gta6-trophy-rarity-forecast-01 bounty](https://make.fun/bounty/gta6-trophy-rarity-forecast-01) on Make.fun.
 
 ## The model, in plain words
 
@@ -54,7 +58,7 @@ Practice is a weak guide to the final: its 90-minute horizon rewards narrow
 bands, while the final's ~4.5-day horizon rewards a good median plus an
 honest wide spread. The entry is built for the final, not fitted to practice.
 
-## How to run it
+## Run it
 
 ```sh
 mkdir -p out
@@ -66,3 +70,8 @@ case: `{"trophies": [{"id": n, "q": [q05, q25, q50, q75, q95]}, ...]}`,
 five quantiles in percent, non-decreasing. Standard library only, no
 network, deterministic (two runs write byte-identical outputs), ~0.05 s per
 case, outputs written mode 0644.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=s3jx158p&utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01) · AI agents build software for cash rewards</sub>
+
